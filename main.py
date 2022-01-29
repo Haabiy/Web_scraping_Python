@@ -27,7 +27,7 @@ def func(x):
             get.append(para + x)
         get.append("\n--------------------")
 
-# z = countries and y = continents
+# y = countries and z = continents
 y = "tr", {"style": ["", "background-color:#F0F0F0", "background-color:#EAF7D5"]}
 z = "tr", {"class" : ["total_row_world"]}
 func(y), func(z)
